@@ -228,7 +228,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c8982fe58e76ba047ab40b7314ddbad5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentCube: {fileID: 2106929146}
+  currentCube: {fileID: 1402106168037287072, guid: 3cba3423211d2c04c80be3b17a4bc681,
+    type: 3}
   lastCube: {fileID: 0}
   text: {fileID: 525741941}
   Level: 0
@@ -693,6 +694,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4999643777271440144, guid: 3cba3423211d2c04c80be3b17a4bc681,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 3d177d04cc3c05b48ad6727ffe61a2bf, type: 2}
     m_RemovedComponents:
     - {fileID: 1668486773252963734, guid: 3cba3423211d2c04c80be3b17a4bc681, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 3cba3423211d2c04c80be3b17a4bc681, type: 3}
